@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Vendors from './components/Vendors'
 
 const App=()=>{
-    return <h1>Hello world</h1>
+    return (
+        <Vendors></Vendors>
+    )
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));

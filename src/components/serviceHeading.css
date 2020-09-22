@@ -1,0 +1,15 @@
+.service-header-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.service-header-item{
+    color: #90908c;
+    transition: all .2s ease-in-out;
+}
+
+
+.service-header-item:hover{
+    transform: scale(1.4);
+
+}
